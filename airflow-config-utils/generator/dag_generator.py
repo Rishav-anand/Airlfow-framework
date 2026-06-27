@@ -12,3 +12,4 @@ if __name__ == "__main__":
 
     for file in config_dir.rglob("*.yaml"):
         print(load_yaml(file))
+        print(file)
